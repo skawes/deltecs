@@ -1,0 +1,38 @@
+body{
+    
+}
+.hide{
+  display: none ;   
+}
+.container{
+    display:flex;
+    background-color:black;
+   
+}
+.flex-container {
+    display: flex;
+    background-color:none;
+ 
+    
+  }
+.item{
+    margin: 12px;
+    font: caption;
+    color: white;
+    cursor: pointer;
+}
+a:visited,a:link { 
+    color: white;
+    text-decoration: none;
+   
+  }
+  
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .button{
+      text-align: center;
+  }

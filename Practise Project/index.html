@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+
+<body>
+    <div class="header-container container">
+        <div id="home"class="item" data-navname="home">Home </div>
+        <div id="news" class="item" data-navname="news"> News </div>
+        <div id="videos" class="item" data-navname="videos"> Videos     </div>
+        <div id="contact" class="item" data-navname="contact"> Contact </div>
+        <div id="about" class="item" data-navname="about"> About</div>
+    </div>
+    <div class="body-container">
+        <div  class="home single-screen" data-navname="home">
+            <h1>Welcome to Deltecs!!!</h1>
+        </div>
+        <div class="videos single-screen hide" data-navname="videos">
+            <div class="flex-container">
+                <div>
+                    <iframe width="320" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="news single-screen hide" data-navname="news">
+            <h1>The company is currently working on studio which is used to make low code or no code apps.</h1>
+        </div>
+        <div class="contact single-screen  hide" data-navname="contact">
+            <h1>contact</h1>
+        </div>
+        <div class="about single-screen hide" data-navname="about">
+            <h1>About.</h1>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"> </script>  
+</body>
+
+</html>
