@@ -19,36 +19,50 @@
     <div class="header-container container">
         <div class="top-bar">
             <i class='fas fa-check-circle'></i>
-            <div style="color:white">All the tasks</div>
-            <i class='fas fa-plus-circle'></i>
+           <div class="icon hide"> <i class='far fa-caret-square-left' style='font-size:36px'></i> </div>
+            <div style="color:white" class="action">All the tasks</div>
+            <i class='fas fa-plus-circle add-task' style="cursor:pointer"></i>
         </div>
     </div>
     <div class="content-body">
         <div class="menu">
-            <div class="menu-item des" id="all">
+            <div class="menu-item des" id="all" data-navname="all">
                 All
             </div>
-            <div class="menu-item  " id="pending">
+            <div class="menu-item " id="pending" data-navname="pending">
                 Pending
             </div>
-            <div class="menu-item " id="completed">
+            <div class="menu-item " id="completed" data-navname="completed">
                 Completed
             </div>
         </div>
         <div class="main">
             <!-- <div class="all">All TO-DO TASKS</div> -->
-            <div class="workspace all">
-               worspace
+            <div class="workspace all" data-navname="all">
+               <div><input type="checkbox">tas1</div>
+               <div><input type="checkbox">task2</div>
+               <div><input type="checkbox">task3</div>
             </div>
             <!-- <div class="pending hide"> PENDING TO-DO TASKS</div> -->
-            <div class="workspace pending hide">
-                wospace
+            <div class="workspace pending hide" data-navname="pending">
+                <div><input type="checkbox">task1</div>
+               <div><input type="checkbox">t2</div>
+               <div><input type="checkbox">t3</div>
+               <div><input type="checkbox">t4</div>
+               <div><input type="checkbox">t5</div>
+               <div><input type="checkbox">t6</div>
             </div>
             <!-- <div class="completed hide"> COMPLETED TO-DO TASKS</div> -->
-            <div class="workspace completed hide">
-                workspace
+            <div class="workspace completed hide" data-navname="completed">
+                <div><input type="checkbox">t1</div>
+                <div><input type="checkbox">t2</div>  
             </div>
+            
+            <div class="add-space hide">add new task</div>
+            <div class="add-space image hide">add image</div>
+           
         </div>
+        
     </div>
 
 
